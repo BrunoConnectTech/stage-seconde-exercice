@@ -78,4 +78,20 @@ For Windows
     git checkout etape-1-backend-helloworld
 ```
 
+### Initialisation et démarrage de l'application backend :
 
+* Ouvrir VS Code
+* Ouvrir le projet dans VS Code
+* Ouvrir un terminal intégré (Ctrl + `).
+* Dans le terminal, taper les commandes suivantes pour initialiser le projet et démarrer le serveur :
+```bash
+    node --version
+    npm --version
+    npm install
+    npm run start
+```
+
+## Passage à l'étape 1 Hello World constante :
+```bash
+    git checkout etape-1-backend-helloworld-exo-constante
+```
