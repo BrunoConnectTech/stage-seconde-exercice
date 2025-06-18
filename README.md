@@ -1,7 +1,7 @@
 # sncfconnect-stage-app-pokemon
 Application web sur les Pokemon pour le stage de seconde.
 
-Url du projet sur github : https://github.com/BrunoConnectTech/sncfconnect-stage-app-pokemon.git
+Url du projet sur github : https://github.com/BrunoConnectTech/stage-seconde-exercice.git
 
 # Installation de poste
 
