@@ -40,7 +40,13 @@ const pokemonList = [
 
 // Route "Liste Pokemon"
 app.get('/pokemon', (req, res) => {
-    res.status(200).json({ pokemon: pokemonList });
+    // TODO
+    // - Trier la liste de pokemon par "name" croissant
+    // - puis utiliser cette liste trier pour la retourner dans la réponse res
+
+    res.status(200).json({});
+
+    // Fin TODO
 });
 
 // Démarrer le serveur
