@@ -1,0 +1,19 @@
+{
+  "name": "sncfconnect-stage-app-pokemon-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Bruno",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "volta": {
+    "node": "22.16.0",
+    "npm": "11.4.1"
+  }
+}
