@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pokemon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1 class="titre">Liste des Pokémon</h1>
+
+    <div class="searchBar">
+        <label for="search-bar">Rechercher un pokemon :</label>
+        <input type="text" id="search-bar" placeholder="Nom du pokemon" />
+    </div>
+
+    <div class="filterButtonsContainer">
+        <p>Filtres par type de pokémon :</p>
+        <div class="filterButtons" id="filter-buttons"></div>
+    </div>
+
+    <ul class="pokemonList" id="pokemon-list"></ul>
+
+    <div class="paginationContainer" id="pagination">
+        <button class="navigationBtn" id="prev-page">Précédent</button>
+        <span id="page-info"></span>
+        <button class="navigationBtn" id="next-page">Suivant</button>
+    </div>
+
+    <div id="error"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
