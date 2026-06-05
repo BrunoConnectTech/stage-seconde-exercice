@@ -54,6 +54,11 @@ Voici les éléments HTML que tu peux cibler en CSS :
 > - un nom anglais : `red`, `blue`, `gold`, `white`, `black`…
 > - un code hexadécimal : `#ffcc00`
 > - une valeur RGB : `rgb(255, 204, 0)`
+>
+> 🔗 Outils pour trouver des couleurs :
+>
+> - **[htmlcolorcodes.com](https://htmlcolorcodes.com/fr/)** — sélecteur interactif qui affiche le code hex et RGB en temps réel
+> - **[colorhunt.co](https://colorhunt.co)** — palettes de couleurs harmonieuses prêtes à l'emploi, un clic pour copier le code hex
 
 ---
 
