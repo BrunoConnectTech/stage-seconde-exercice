@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Ajout d'une classe de style pour chaque élément de la liste
         listItem.className = "pokemonItem";
         // Insertion image et nom dans l'élément de liste
-        listItem.innerHTML = `<img class="pokemonImg" src="${pokemon.image}" alt="${pokemon.name}"> <p>${pokemon.name}</p>`;
+        listItem.innerHTML = `<img class="pokemonImg" src="${pokemon.image}" alt="${pokemon.name}"> <p class="pokemonName">${pokemon.name}</p>`;
         // Ajout de l'élément de liste à l'élément pokemon-list
         pokemonListElement.appendChild(listItem);
     });
